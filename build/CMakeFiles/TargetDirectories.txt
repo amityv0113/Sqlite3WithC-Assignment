@@ -1,0 +1,3 @@
+/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/build/CMakeFiles/mainExecutable.dir
+/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/build/CMakeFiles/edit_cache.dir
