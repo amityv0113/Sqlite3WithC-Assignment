@@ -21,14 +21,14 @@ class DbConnection{
             sqlite3 *db;
             int open = 0;
             open=sqlite3_open(DirectoryLocation,&db);
-            if(open)
-            {
-                cout<<"database not created"<<endl;
-            }
-            else
-            {
-                cout<<"database created "<<endl;
-            }
+            // if(open)
+            // {
+            //     cout<<"database not created"<<endl;
+            // }
+            // else
+            // {
+            //     cout<<"database created "<<endl;
+            // }
             sqlite3_close(db);
         }
         // function to create table in Db

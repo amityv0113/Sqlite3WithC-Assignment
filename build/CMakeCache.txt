@@ -187,6 +187,9 @@ CalculatorDb_BINARY_DIR:STATIC=/mnt/d/Go_Basic/projects/go/src/C++ Project/sqlit
 //Value Computed by CMake
 CalculatorDb_SOURCE_DIR:STATIC=/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++
 
+//The directory containing a CMake configuration file for SQLite3.
+SQLite3_DIR:PATH=SQLite3_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries
