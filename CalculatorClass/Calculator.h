@@ -85,11 +85,11 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
 {
     T num1;
     T num2;
-    const char* DirectoryLocation=R"(D:\Go_Basic\projects\go\src\C++ Project\sqliteWithC++\CalculatorDatabase\calculator.db)";
+    const char* DirectoryLocation;
     // location where we want to create calculator.db file 
     DbConnection*ptrDb =nullptr;
     public:
-        Calculator(T _num1 ,T _num2):num1{_num1},num2{_num2}{   // constructor for calculator
+        Calculator(T _num1 ,T _num2,const char*s):num1{_num1},num2{_num2},DirectoryLocation{s}{   // constructor for calculator
 
             ptrDb=DbConnection::start(DirectoryLocation);
         }

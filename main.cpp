@@ -73,8 +73,8 @@ int main()
     take_input(num1,num2);
     double _num1 = std::stod(num1);
     double _num2 = std::stod(num2);
-
-    Calculator<double>c(_num1,_num2);      
+    const char* DirectoryLocation=R"(D:\Go_Basic\projects\go\src\C++ Project\sqliteWithC++\CalculatorDatabase\calculator.db)";
+    Calculator<double>c(_num1,_num2,DirectoryLocation);      
     c.Run();                               // to run calculator //
 
     cout<<"show all operation "<<endl;
