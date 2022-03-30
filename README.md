@@ -69,4 +69,5 @@ For support, email amityv0113@gmail.com or join our Slack channel.
 ## Authors
 
 - [@amityv0113](https://github.com/amityv0113)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amityv0113/)
 
