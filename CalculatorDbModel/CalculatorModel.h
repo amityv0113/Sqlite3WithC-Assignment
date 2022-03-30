@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-#include "../sqlite3.h"
+#include "../sqlit3Header/sqlite3.h"
 
 class DbConnection{
     private:

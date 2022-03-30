@@ -127,7 +127,7 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
                     _result=to_string(result);
                     ptrDb->InsertData(_num1,_num2,_op,_result);
                     break;
-
+                
             }
             return result;
         }
@@ -161,7 +161,18 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
         void showAllOperationHistory(){
             ptrDb->selectData();
         }
-
-
+        void setNum1(T _num1)
+        {
+            this->num1=_num1;
+        }
+        void setNum2(T _num2)
+        {
+            this->num2=_num2;
+        }
+        void setNum(T _num1,T _num2)
+        {
+            this->num1=num1;
+            this->num2=num2;
+        }
 };
 

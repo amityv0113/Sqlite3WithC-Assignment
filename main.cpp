@@ -7,11 +7,10 @@ using namespace std;
 bool check_num(string num, int&count)  // checking input number is valid or not //
 {
     
-    if (num.size()>18)   // if input number is length> 18 data type cannot handle such large number  
+    if (num.size()>18)   // if input number is length> 18, data type cannot handle such large number  
     {
         return false;
     }
-    
     for(int i=0 ;i<num.size() ;i++)  
     {
         if (num[0]=='-')
@@ -44,19 +43,24 @@ void take_input(string& num1,string& num2)
     cin>>num1;
     while(!check_num(num1,count1))      //check for valid number
     {
+        count1=0;
         cin.clear();                    //
         cin.ignore(numeric_limits<streamsize>::max(),'\n');
-        cout<<"You have entered wrong input number 1"<<endl;
-        cin>>num1;
+        cout<<"You have entered wrong input! number Please enter 1st number again : "<<endl;
+        cin>>num1; 
+        //taking input for num1 if in case you have entered wrong input
     }
     cout<<"enter 2nd number :"<<endl;
     cin>>num2;
     while(!check_num(num2,count2))
     {
+        count2=0;
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(),'\n');
-        cout<<"You have entered wrong input number 2"<<endl;
+        cout<<"You have entered wrong input! number Please enter 2nd number again : "<<endl;
         cin>>num2;
+        //taking input for num2 if in case you have entered wrong input
+
     }
 }
 
@@ -73,11 +77,11 @@ int main()
     take_input(num1,num2);
     double _num1 = std::stod(num1);
     double _num2 = std::stod(num2);
-    const char* DirectoryLocation=R"(D:\Go_Basic\projects\go\src\C++ Project\sqliteWithC++\CalculatorDatabase\calculator.db)";
+    const char* DirectoryLocation=R"(CalculatorDatabase\calculator.db)";
     Calculator<double>c(_num1,_num2,DirectoryLocation);      
     c.Run();                               // to run calculator //
 
-    cout<<"show all operation "<<endl;
+    cout<<"show all operation perform on calculator"<<endl;
     c.showAllOperationHistory();           // show all operation done on calculator //
 
     return 0;
