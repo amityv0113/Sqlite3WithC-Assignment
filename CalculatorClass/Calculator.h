@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 #include "../CalculatorDbModel/CalculatorModel.h"
-using namespace std;
+
 
 class DividByZeroException : public exception{  
     public:  
@@ -73,7 +73,7 @@ class Div{
             }
             catch(exception& e)
             {
-                cout<<e.what()<<endl;
+                std::cout<<e.what()<<endl;
             }
             return _div;
              
@@ -96,10 +96,10 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
         T calculate_operation(int val)
         {
             T result;
-            string _num1=to_string(num1);
-            string _num2=to_string(num2);
-            string _op;
-            string _result;
+            std::string _num1=to_string(num1);
+            std::string _num2=to_string(num2);
+            std::string _op;
+            std::string _result;
             switch (val)
             {
                 case 1:
@@ -127,7 +127,7 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
                     _result=to_string(result);
                     ptrDb->InsertData(_num1,_num2,_op,_result);
                     break;
-                
+
             }
             return result;
         }
@@ -138,8 +138,8 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
             while(flag)
             {
                 operationToPerform(val);
-                cout<<"Result : "<<calculate_operation(val)<<endl;
-                cout<<"if you want to exit program enter -1"<<endl;
+                std::cout<<"Result : "<<calculate_operation(val)<<endl;
+                std::cout<<"if you want to exit program enter -1"<<endl;
                 int temp;
                 cin>>temp;
                 if (temp==-1)
@@ -151,11 +151,11 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
 
         void operationToPerform(int&val)
         {
-            cout<<"enter 1 for addition"<<endl;
-            cout<<"enter 2 for subtraction"<<endl;
-            cout<<"enter 3 for multiplication"<<endl;
-            cout<<"enter 4 for divsion"<<endl;
-            cin>>val;
+            std::cout<<"enter 1 for addition"<<endl;
+            std::cout<<"enter 2 for subtraction"<<endl;
+            std::cout<<"enter 3 for multiplication"<<endl;
+            std::cout<<"enter 4 for divsion"<<endl;
+            std::cin>>val;
         }
 
         void showAllOperationHistory(){
