@@ -1,17 +1,19 @@
 #include<bits/stdc++.h>
-using namespace std;
+// using namespace std;
 #include "../sqlit3Header/sqlite3.h"
 
 class DbConnection{
     private:
+        //pointer to hold location of Db file 
         const char* DirectoryLocation;
 
         // pointer to hold object created by static function connect , only one object is created 
         static DbConnection* ptr;
 
-        DbConnection(const char* _DirectoryLocation):DirectoryLocation{_DirectoryLocation} // constructor for DbConnect 
+        // constructor for DbConnection 
+        DbConnection(const char* _DirectoryLocation):DirectoryLocation{_DirectoryLocation}  
         {
-            cout<<"creating constructor, for DbConnection"<<endl;
+            std::cout<<"creating constructor, for DbConnection"<<std::endl;
             this->CreateDb();   //when object is created ,data base is created with help of CreateDb function on location DirectoryLocation
             this->CreateTable();//when object is created ,table is created with help of CreateTable  function on location DirectoryLocation
         }
@@ -21,21 +23,13 @@ class DbConnection{
             sqlite3 *db;
             int open = 0;
             open=sqlite3_open(DirectoryLocation,&db);
-            // if(open)
-            // {
-            //     cout<<"database not created"<<endl;
-            // }
-            // else
-            // {
-            //     cout<<"database created "<<endl;
-            // }
             sqlite3_close(db);
         }
         // function to create table in Db
         void CreateTable()
         {
             sqlite3 *db;
-            string sql = "CREATE TABLE IF NOT EXISTS CALCULATOR("
+            std::string sql = "CREATE TABLE IF NOT EXISTS CALCULATOR("
             "ID INTEGER PRIMARY KEY AUTOINCREMENT,"
             "NUM1 TEXT NOT NULL,"
             "NUM2 TEXT NOT NULL,"
@@ -49,21 +43,21 @@ class DbConnection{
                 open = sqlite3_exec(db,sql.c_str(),nullptr ,0,&ErrorMessage);
                 if (open!=SQLITE_OK)
                 {
-                    cerr<<"error while creating table"<<endl;
+                    std::cerr<<"error while creating table"<<std::endl;
                     //cout<<ErrorMessage<<endl;
                     sqlite3_free(ErrorMessage);
 
                 }
                 else
                 {
-                    cerr<<"Table created successfully "<<endl;
+                    std::cerr<<"Table created successfully "<<std::endl;
                 }
                 sqlite3_close(db);
                 
             }
-            catch(const exception &e)
+            catch(const std::exception &e)
             {
-                cout<<e.what()<<endl;
+                std::cout<<e.what()<<std::endl;
             }  
             
         }
@@ -73,17 +67,16 @@ class DbConnection{
         {
             for (int i=0;i<argc;i++) {
                 // column name and value
-                cout << azColName[i] << ": " << argv[i] << endl;
+                std::cout << azColName[i] << ": " << argv[i] << std::endl;
             }
-            cout << endl;
+            std::cout << std::endl;
             return 0;
         }
 
     public:
         ~DbConnection()
         {
-            cout<<"calling destructor for DbConnection !"<<endl;
-            // delete ptr;
+            std::cout<<"calling destructor for DbConnection !"<<std::endl;
             ptr =nullptr;
         }
         // static method to to envoke constructor to create object;
@@ -101,23 +94,23 @@ class DbConnection{
         //Dbconnection should not assign
         DbConnection& operator=(DbConnection& val)=delete;
 
-        void InsertData(string _num1,string _num2,string _op,string _result)
+        void InsertData(std::string _num1,std::string _num2,std::string _op,std::string _result)
         {
             sqlite3*db;
             char*ErrorMessage;
             int open=0;
             open=sqlite3_open(DirectoryLocation,&db);
             // sql query for insert value in Calculator DB
-            string sql="INSERT INTO CALCULATOR (NUM1, NUM2, OPERATOR, RESULT) VALUES("+_num1+","+_num2+",'"+_op+"',"+_result+");";
+            std::string sql="INSERT INTO CALCULATOR (NUM1, NUM2, OPERATOR, RESULT) VALUES("+_num1+","+_num2+",'"+_op+"',"+_result+");";
             open = sqlite3_exec(db,sql.c_str(),NULL ,0,&ErrorMessage);
             if (open!=SQLITE_OK)
             {
-                cerr<<"Error while inserting data"<<endl;
+                std::cerr<<"Error while inserting data"<<std::endl;
                 sqlite3_free(ErrorMessage);
             }
             else
             {
-                cerr<<"Data inserted successfully "<<endl;
+                std::cerr<<"Data inserted successfully "<<std::endl;
             }
             sqlite3_close(db);
 
@@ -143,16 +136,16 @@ class DbConnection{
             sqlite3*db;
             char*ErrorMessage;
             int open=sqlite3_open(DirectoryLocation,&db);
-            string sql = "SELECT * FROM CALCULATOR;";
+            std::string sql = "SELECT * FROM CALCULATOR;";
             open = sqlite3_exec(db, sql.c_str(), callback, NULL, &ErrorMessage);
             if(open!=SQLITE_OK)
             {
-                cerr<<"Error in selectData function."<< endl;
+                std::cerr<<"Error in selectData function."<< std::endl;
                 sqlite3_free(ErrorMessage);
             }
             else
             {
-                cout<<"Records selected Successfully!"<<endl;
+                std::cout<<"Records selected Successfully!"<<std::endl;
             }
         }
 
@@ -161,16 +154,16 @@ class DbConnection{
             sqlite3*db;
             char*ErrorMessage;
             int open =sqlite3_open(DirectoryLocation,&db);
-            string sql = "DELETE FROM CALCULATOR;";
+            std::string sql = "DELETE FROM CALCULATOR;";
             open=sqlite3_exec(db,sql.c_str(),callback,NULL,&ErrorMessage);
             if(open!=SQLITE_OK)
             {
-                cerr<<"Error in deleteData function."<< endl;
+                std::cerr<<"Error in deleteData function."<< std::endl;
                 sqlite3_free(ErrorMessage);
             }
             else
             {
-                cout<<"Records deleted Successfully!"<< endl;
+                std::cout<<"Records deleted Successfully!"<< std::endl;
             }
         }
 };

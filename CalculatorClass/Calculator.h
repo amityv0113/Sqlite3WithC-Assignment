@@ -2,7 +2,7 @@
 #include "../CalculatorDbModel/CalculatorModel.h"
 
 
-class DividByZeroException : public exception{  
+class DividByZeroException : public std::exception{  
     public:  
         const char * what() const throw()  
         {  
@@ -20,7 +20,7 @@ class Sum{
             return _sum;
         }
         // function overloading 
-        T sum(initializer_list<T> list)
+        T sum(std::initializer_list<T> list)
         {
             T total=0;
             for( auto val: list )
@@ -71,9 +71,9 @@ class Div{
                     return _div;
                 }
             }
-            catch(exception& e)
+            catch(std::exception& e)
             {
-                std::cout<<e.what()<<endl;
+                std::cout<<e.what()<<std::endl;
             }
             return _div;
              
@@ -96,8 +96,8 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
         T calculate_operation(int val)
         {
             T result;
-            std::string _num1=to_string(num1);
-            std::string _num2=to_string(num2);
+            std::string _num1=std::to_string(num1);
+            std::string _num2=std::to_string(num2);
             std::string _op;
             std::string _result;
             switch (val)
@@ -106,25 +106,25 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
                     result= this->sum(num1,num2);
                     
                     _op="+";
-                    _result=to_string(result);
+                    _result=std::to_string(result);
                     ptrDb->InsertData(_num1,_num2,_op,_result);
                     break;                
                 case 2:
                     result= this->sub(num1,num2);
                     _op="-";
-                    _result=to_string(result);
+                    _result=std::to_string(result);
                     ptrDb->InsertData(_num1,_num2,_op,_result);
                     break;
                 case 3:
                     result= this->mul(num1,num2);
                     _op="*";
-                    _result=to_string(result);
+                    _result=std::to_string(result);
                     ptrDb->InsertData(_num1,_num2,_op,_result);
                     break;
                 case 4:
                     result= this->div(num1,num2);
                     _op="/";
-                    _result=to_string(result);
+                    _result=std::to_string(result);
                     ptrDb->InsertData(_num1,_num2,_op,_result);
                     break;
 
@@ -138,10 +138,10 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
             while(flag)
             {
                 operationToPerform(val);
-                std::cout<<"Result : "<<calculate_operation(val)<<endl;
-                std::cout<<"if you want to exit program enter -1"<<endl;
+                std::cout<<"Result : "<<calculate_operation(val)<<std::endl;
+                std::cout<<"if you want to exit program enter -1"<<std::endl;
                 int temp;
-                cin>>temp;
+                std::cin>>temp;
                 if (temp==-1)
                 {
                     flag=false;
@@ -151,10 +151,10 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
 
         void operationToPerform(int&val)
         {
-            std::cout<<"enter 1 for addition"<<endl;
-            std::cout<<"enter 2 for subtraction"<<endl;
-            std::cout<<"enter 3 for multiplication"<<endl;
-            std::cout<<"enter 4 for divsion"<<endl;
+            std::cout<<"enter 1 for addition"<<std::endl;
+            std::cout<<"enter 2 for subtraction"<<std::endl;
+            std::cout<<"enter 3 for multiplication"<<std::endl;
+            std::cout<<"enter 4 for divsion"<<std::endl;
             std::cin>>val;
         }
 
