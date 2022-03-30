@@ -55,3 +55,18 @@ uding bash go/to/source code/folder :
 : Db store num1,num2,operator,result
 
 ```
+## Tech Stack
+
+**language:** C++
+
+**Database:** Sqlite3
+
+## Support
+
+For support, email amityv0113@gmail.com or join our Slack channel.
+
+
+## Authors
+
+- [@katherinepeterson](https://github.com/amityv0113)
+
