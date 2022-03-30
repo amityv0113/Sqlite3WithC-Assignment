@@ -88,9 +88,15 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
     const char* DirectoryLocation;
     // location where we want to create calculator.db file 
     DbConnection*ptrDb =nullptr;
-    public:
-        Calculator(T _num1 ,T _num2,const char*s):num1{_num1},num2{_num2},DirectoryLocation{s}{   // constructor for calculator
 
+    //checks if you want to update database or not check=false ->do not want to update check=true want to update database
+    bool check=false;
+    public:
+        Calculator(T _num1 ,T _num2):num1{_num1},num2{_num2}{
+            this->check=false;
+        }
+        Calculator(T _num1 ,T _num2,const char*s):num1{_num1},num2{_num2},DirectoryLocation{s}{   // constructor for calculator
+            this->check=true;
             ptrDb=DbConnection::start(DirectoryLocation);
         }
         T calculate_operation(int val)
@@ -104,28 +110,40 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
             {
                 case 1:
                     result= this->sum(num1,num2);
-                    
                     _op="+";
                     _result=std::to_string(result);
-                    ptrDb->InsertData(_num1,_num2,_op,_result);
+                    if (check==true)
+                    {
+                        ptrDb->InsertData(_num1,_num2,_op,_result);
+                    }
+                    
                     break;                
                 case 2:
                     result= this->sub(num1,num2);
                     _op="-";
                     _result=std::to_string(result);
-                    ptrDb->InsertData(_num1,_num2,_op,_result);
+                    if(check)
+                    {
+                        ptrDb->InsertData(_num1,_num2,_op,_result);
+                    }
                     break;
                 case 3:
                     result= this->mul(num1,num2);
                     _op="*";
                     _result=std::to_string(result);
-                    ptrDb->InsertData(_num1,_num2,_op,_result);
+                    if(check==true)
+                    {
+                        ptrDb->InsertData(_num1,_num2,_op,_result);
+                    }
                     break;
                 case 4:
                     result= this->div(num1,num2);
                     _op="/";
                     _result=std::to_string(result);
-                    ptrDb->InsertData(_num1,_num2,_op,_result);
+                    if(check==true)
+                    {
+                        ptrDb->InsertData(_num1,_num2,_op,_result);
+                    }
                     break;
 
             }
