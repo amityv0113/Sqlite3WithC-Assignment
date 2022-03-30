@@ -2,6 +2,19 @@
 ## Description
 Calculator Application is used to performs arithmetic operations on numbers  can do addition, subtraction, multiplication, and division also store operation information in sqlite3 database 
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/amityv0113/Sqlite3WithC-Assignment.git
+```
+Go to the project directory
+
+```bash
+  cd Sqlite3WithC-Assignment
+```
+
 ## Run code 
 ```
 Windows
