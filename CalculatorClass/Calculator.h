@@ -1,8 +1,12 @@
+#ifndef _BITSTDC_
+#define _BITSTDC_
 #include<bits/stdc++.h>
+#endif
+
 #include "../CalculatorDbModel/CalculatorModel.h"
 
-#ifndef dividByZeroException_H
-#define dividByZeroException_H
+#ifndef CALCULATOR_H
+#define CALCULATOR_H
 
 class DividByZeroException : public std::exception{  
     public:  
@@ -12,11 +16,6 @@ class DividByZeroException : public std::exception{
         }  
 }; 
 
-#endif
- 
-
-#ifndef sum_H
-#define sum_H
 template<typename T>
 class Sum{
     public:
@@ -37,10 +36,7 @@ class Sum{
             return total;
         }
 };
-#endif
 
-#ifndef mul_H
-#define mul_H
 template<typename T>
 class Mul{
     public:
@@ -54,12 +50,6 @@ class Mul{
         
 };
 
-#endif
-
-
-#ifndef sub_H
-#define sub_H
-
 template<typename T>
 class Sub{
     public:
@@ -72,10 +62,6 @@ class Sub{
         
 };
 
-#endif
-
-#ifndef div_H
-#define div_H
 template<typename T>
 class Div{
     public:
@@ -102,11 +88,6 @@ class Div{
              
         }
 };
-
-#endif
-
-#ifndef SOME_UNIQUE_NAME_HERE
-#define SOME_UNIQUE_NAME_HERE
 template<typename T>
 class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // calculator class 
 {
