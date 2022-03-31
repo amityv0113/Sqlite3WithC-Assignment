@@ -9,6 +9,12 @@ Clone the project
 ```bash
   git clone https://github.com/amityv0113/Sqlite3WithC-Assignment.git
 ```
+Download sqlite3
+
+```bash
+  sudo apt-get install sqlite3 libsqlite3-dev
+```
+
 Go to the project directory
 
 ```bash
