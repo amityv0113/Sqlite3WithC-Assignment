@@ -356,12 +356,12 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/unit_test.cpp
+/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/src/unit_test.cpp
 bits/stdc++.h
 -
 gtest/gtest.h
 -
-../CalculatorClass/Calculator.h
+../../CalculatorClass/Calculator.h
 /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/CalculatorClass/Calculator.h
 
 /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/CalculatorClass/Calculator.h

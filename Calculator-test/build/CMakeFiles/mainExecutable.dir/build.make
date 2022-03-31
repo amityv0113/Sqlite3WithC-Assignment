@@ -57,38 +57,38 @@ include CMakeFiles/mainExecutable.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mainExecutable.dir/flags.make
 
-CMakeFiles/mainExecutable.dir/unit_test.cpp.o: CMakeFiles/mainExecutable.dir/flags.make
-CMakeFiles/mainExecutable.dir/unit_test.cpp.o: ../unit_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mainExecutable.dir/unit_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainExecutable.dir/unit_test.cpp.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/unit_test.cpp"
+CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o: CMakeFiles/mainExecutable.dir/flags.make
+CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o: ../src/unit_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/src/unit_test.cpp"
 
-CMakeFiles/mainExecutable.dir/unit_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainExecutable.dir/unit_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/unit_test.cpp" > CMakeFiles/mainExecutable.dir/unit_test.cpp.i
+CMakeFiles/mainExecutable.dir/src/unit_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mainExecutable.dir/src/unit_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/src/unit_test.cpp" > CMakeFiles/mainExecutable.dir/src/unit_test.cpp.i
 
-CMakeFiles/mainExecutable.dir/unit_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainExecutable.dir/unit_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/unit_test.cpp" -o CMakeFiles/mainExecutable.dir/unit_test.cpp.s
+CMakeFiles/mainExecutable.dir/src/unit_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mainExecutable.dir/src/unit_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/src/unit_test.cpp" -o CMakeFiles/mainExecutable.dir/src/unit_test.cpp.s
 
-CMakeFiles/mainExecutable.dir/unit_test.cpp.o.requires:
+CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o.requires:
 
-.PHONY : CMakeFiles/mainExecutable.dir/unit_test.cpp.o.requires
+.PHONY : CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o.requires
 
-CMakeFiles/mainExecutable.dir/unit_test.cpp.o.provides: CMakeFiles/mainExecutable.dir/unit_test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/mainExecutable.dir/build.make CMakeFiles/mainExecutable.dir/unit_test.cpp.o.provides.build
-.PHONY : CMakeFiles/mainExecutable.dir/unit_test.cpp.o.provides
+CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o.provides: CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o.requires
+	$(MAKE) -f CMakeFiles/mainExecutable.dir/build.make CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o.provides.build
+.PHONY : CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o.provides
 
-CMakeFiles/mainExecutable.dir/unit_test.cpp.o.provides.build: CMakeFiles/mainExecutable.dir/unit_test.cpp.o
+CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o.provides.build: CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o
 
 
 # Object files for target mainExecutable
 mainExecutable_OBJECTS = \
-"CMakeFiles/mainExecutable.dir/unit_test.cpp.o"
+"CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o"
 
 # External object files for target mainExecutable
 mainExecutable_EXTERNAL_OBJECTS =
 
-mainExecutable: CMakeFiles/mainExecutable.dir/unit_test.cpp.o
+mainExecutable: CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o
 mainExecutable: CMakeFiles/mainExecutable.dir/build.make
 mainExecutable: lib/libgtest.a
 mainExecutable: lib/libgmock.a
@@ -102,7 +102,7 @@ CMakeFiles/mainExecutable.dir/build: mainExecutable
 
 .PHONY : CMakeFiles/mainExecutable.dir/build
 
-CMakeFiles/mainExecutable.dir/requires: CMakeFiles/mainExecutable.dir/unit_test.cpp.o.requires
+CMakeFiles/mainExecutable.dir/requires: CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o.requires
 
 .PHONY : CMakeFiles/mainExecutable.dir/requires
 

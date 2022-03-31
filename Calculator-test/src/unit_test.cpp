@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 #include<gtest/gtest.h>
-#include "../CalculatorClass/Calculator.h"   // adding Calculator class 
+#include "../../CalculatorClass/Calculator.h"   // adding Calculator class 
 using namespace std;
 // addition of two integer number //
 TEST(calculatorSum,postiveNoSum)

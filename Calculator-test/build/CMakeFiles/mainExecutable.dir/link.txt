@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/mainExecutable.dir/unit_test.cpp.o  -o mainExecutable lib/libgtest.a lib/libgmock.a -lsqlite3 lib/libgtest.a -lpthread 
+/usr/bin/c++    -rdynamic CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o  -o mainExecutable lib/libgtest.a lib/libgmock.a -lsqlite3 lib/libgtest.a -lpthread 

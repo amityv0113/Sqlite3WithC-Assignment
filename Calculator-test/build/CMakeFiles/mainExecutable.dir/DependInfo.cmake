@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/unit_test.cpp" "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/mainExecutable.dir/unit_test.cpp.o"
+  "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/src/unit_test.cpp" "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/mnt/d/Go_Basic/projects/go/sr
 Determining if the C compiler works passed with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a0a83/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a0a83.dir/build.make CMakeFiles/cmTC_a0a83.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2594c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2594c.dir/build.make CMakeFiles/cmTC_2594c.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a0a83.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a0a83.dir/testCCompiler.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_a0a83
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0a83.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a0a83.dir/testCCompiler.c.o  -o cmTC_a0a83 
+Building C object CMakeFiles/cmTC_2594c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2594c.dir/testCCompiler.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_2594c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2594c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2594c.dir/testCCompiler.c.o  -o cmTC_2594c 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86012/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86012.dir/build.make CMakeFiles/cmTC_86012.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8ec16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ec16.dir/build.make CMakeFiles/cmTC_8ec16.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86012.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_86012.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_86012
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86012.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_86012.dir/CMakeCCompilerABI.c.o  -o cmTC_86012 
+Building C object CMakeFiles/cmTC_8ec16.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ec16.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8ec16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ec16.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8ec16.dir/CMakeCCompilerABI.c.o  -o cmTC_8ec16 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_86012' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqYumG3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_86012 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_86012.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_86012' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8ec16' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf5rArm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8ec16 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8ec16.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8ec16' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_86012/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_86012.dir/build.make CMakeFiles/cmTC_86012.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8ec16/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8ec16.dir/build.make CMakeFiles/cmTC_8ec16.dir/build]
   ignore line: [make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_86012.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_86012.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_86012]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86012.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_86012.dir/CMakeCCompilerABI.c.o  -o cmTC_86012 ]
+  ignore line: [Building C object CMakeFiles/cmTC_8ec16.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_8ec16.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8ec16]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ec16.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8ec16.dir/CMakeCCompilerABI.c.o  -o cmTC_8ec16 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_86012' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqYumG3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_86012 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_86012.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8ec16' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf5rArm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8ec16 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8ec16.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccqYumG3.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccf5rArm.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_86012] ==> ignore
+    arg [cmTC_8ec16] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_86012.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_8ec16.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0c26e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0c26e.dir/build.make CMakeFiles/cmTC_0c26e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b8cf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8cf2.dir/build.make CMakeFiles/cmTC_b8cf2.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0c26e.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_0c26e.dir/feature_tests.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_0c26e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c26e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0c26e.dir/feature_tests.c.o  -o cmTC_0c26e 
+Building C object CMakeFiles/cmTC_b8cf2.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b8cf2.dir/feature_tests.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_b8cf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8cf2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b8cf2.dir/feature_tests.c.o  -o cmTC_b8cf2 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWi
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a39ee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a39ee.dir/build.make CMakeFiles/cmTC_a39ee.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6b387/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b387.dir/build.make CMakeFiles/cmTC_6b387.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a39ee.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_a39ee.dir/feature_tests.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_a39ee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a39ee.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a39ee.dir/feature_tests.c.o  -o cmTC_a39ee 
+Building C object CMakeFiles/cmTC_6b387.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_6b387.dir/feature_tests.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_6b387
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b387.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6b387.dir/feature_tests.c.o  -o cmTC_6b387 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWi
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_068b2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_068b2.dir/build.make CMakeFiles/cmTC_068b2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_aacc1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aacc1.dir/build.make CMakeFiles/cmTC_aacc1.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_068b2.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_068b2.dir/feature_tests.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_068b2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_068b2.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_068b2.dir/feature_tests.c.o  -o cmTC_068b2 
+Building C object CMakeFiles/cmTC_aacc1.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_aacc1.dir/feature_tests.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_aacc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aacc1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_aacc1.dir/feature_tests.c.o  -o cmTC_aacc1 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWi
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_91c97/fast"
-/usr/bin/make -f CMakeFiles/cmTC_91c97.dir/build.make CMakeFiles/cmTC_91c97.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_39b78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39b78.dir/build.make CMakeFiles/cmTC_39b78.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_91c97.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_91c97.dir/testCXXCompiler.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_91c97
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91c97.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_91c97.dir/testCXXCompiler.cxx.o  -o cmTC_91c97 
+Building CXX object CMakeFiles/cmTC_39b78.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_39b78.dir/testCXXCompiler.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_39b78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39b78.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_39b78.dir/testCXXCompiler.cxx.o  -o cmTC_39b78 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70561/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70561.dir/build.make CMakeFiles/cmTC_70561.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_06bec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06bec.dir/build.make CMakeFiles/cmTC_06bec.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_70561.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_70561.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_70561
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70561.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_70561.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_70561 
+Building CXX object CMakeFiles/cmTC_06bec.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_06bec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_06bec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06bec.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_06bec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_06bec 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_70561' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7fIKsT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_70561 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_70561.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_70561' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_06bec' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmXEC5n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06bec /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_06bec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_06bec' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_70561/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_70561.dir/build.make CMakeFiles/cmTC_70561.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_06bec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_06bec.dir/build.make CMakeFiles/cmTC_06bec.dir/build]
   ignore line: [make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_70561.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_70561.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_70561]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70561.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_70561.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_70561 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_06bec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_06bec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_06bec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06bec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_06bec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_06bec ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_70561' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7fIKsT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_70561 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_70561.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_06bec' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmXEC5n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06bec /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_06bec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc7fIKsT.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmXEC5n.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_70561] ==> ignore
+    arg [cmTC_06bec] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_70561.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_06bec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eed62/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eed62.dir/build.make CMakeFiles/cmTC_eed62.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c53bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c53bb.dir/build.make CMakeFiles/cmTC_c53bb.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eed62.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_eed62.dir/feature_tests.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_eed62
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eed62.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_eed62.dir/feature_tests.cxx.o  -o cmTC_eed62 
+Building CXX object CMakeFiles/cmTC_c53bb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c53bb.dir/feature_tests.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_c53bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c53bb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c53bb.dir/feature_tests.cxx.o  -o cmTC_c53bb 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWi
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_815ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_815ae.dir/build.make CMakeFiles/cmTC_815ae.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0cf29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0cf29.dir/build.make CMakeFiles/cmTC_0cf29.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_815ae.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_815ae.dir/feature_tests.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_815ae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_815ae.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_815ae.dir/feature_tests.cxx.o  -o cmTC_815ae 
+Building CXX object CMakeFiles/cmTC_0cf29.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_0cf29.dir/feature_tests.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_0cf29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cf29.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0cf29.dir/feature_tests.cxx.o  -o cmTC_0cf29 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWi
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ed219/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ed219.dir/build.make CMakeFiles/cmTC_ed219.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_32486/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32486.dir/build.make CMakeFiles/cmTC_32486.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ed219.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_ed219.dir/feature_tests.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_ed219
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed219.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ed219.dir/feature_tests.cxx.o  -o cmTC_ed219 
+Building CXX object CMakeFiles/cmTC_32486.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_32486.dir/feature_tests.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_32486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32486.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_32486.dir/feature_tests.cxx.o  -o cmTC_32486 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWi
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0478c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0478c.dir/build.make CMakeFiles/cmTC_0478c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3140a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3140a.dir/build.make CMakeFiles/cmTC_3140a.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0478c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_0478c.dir/feature_tests.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_0478c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0478c.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0478c.dir/feature_tests.cxx.o  -o cmTC_0478c 
+Building CXX object CMakeFiles/cmTC_3140a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_3140a.dir/feature_tests.cxx.o -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_3140a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3140a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3140a.dir/feature_tests.cxx.o  -o cmTC_3140a 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
@@ -634,28 +634,28 @@ make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWi
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_25e4d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_25e4d.dir/build.make CMakeFiles/cmTC_25e4d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_495d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_495d9.dir/build.make CMakeFiles/cmTC_495d9.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_25e4d.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_25e4d.dir/CheckIncludeFile.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_25e4d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25e4d.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_25e4d.dir/CheckIncludeFile.c.o  -o cmTC_25e4d 
+Building C object CMakeFiles/cmTC_495d9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_495d9.dir/CheckIncludeFile.c.o   -c "/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_495d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_495d9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_495d9.dir/CheckIncludeFile.c.o  -o cmTC_495d9 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a76d6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a76d6.dir/build.make CMakeFiles/cmTC_a76d6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7d97f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d97f.dir/build.make CMakeFiles/cmTC_7d97f.dir/build
 make[1]: Entering directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a76d6.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a76d6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a76d6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a76d6.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a76d6.dir/CheckFunctionExists.c.o  -o cmTC_a76d6 -lpthread 
+Building C object CMakeFiles/cmTC_7d97f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7d97f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d97f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d97f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7d97f.dir/CheckFunctionExists.c.o  -o cmTC_7d97f -lpthread 
 make[1]: Leaving directory '/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/Calculator-test/build/CMakeFiles/CMakeTmp'
 
 

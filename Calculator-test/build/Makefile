@@ -221,32 +221,32 @@ gtest/fast:
 	$(MAKE) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-unit_test.o: unit_test.cpp.o
+src/unit_test.o: src/unit_test.cpp.o
 
-.PHONY : unit_test.o
+.PHONY : src/unit_test.o
 
 # target to build an object file
-unit_test.cpp.o:
-	$(MAKE) -f CMakeFiles/mainExecutable.dir/build.make CMakeFiles/mainExecutable.dir/unit_test.cpp.o
-.PHONY : unit_test.cpp.o
+src/unit_test.cpp.o:
+	$(MAKE) -f CMakeFiles/mainExecutable.dir/build.make CMakeFiles/mainExecutable.dir/src/unit_test.cpp.o
+.PHONY : src/unit_test.cpp.o
 
-unit_test.i: unit_test.cpp.i
+src/unit_test.i: src/unit_test.cpp.i
 
-.PHONY : unit_test.i
+.PHONY : src/unit_test.i
 
 # target to preprocess a source file
-unit_test.cpp.i:
-	$(MAKE) -f CMakeFiles/mainExecutable.dir/build.make CMakeFiles/mainExecutable.dir/unit_test.cpp.i
-.PHONY : unit_test.cpp.i
+src/unit_test.cpp.i:
+	$(MAKE) -f CMakeFiles/mainExecutable.dir/build.make CMakeFiles/mainExecutable.dir/src/unit_test.cpp.i
+.PHONY : src/unit_test.cpp.i
 
-unit_test.s: unit_test.cpp.s
+src/unit_test.s: src/unit_test.cpp.s
 
-.PHONY : unit_test.s
+.PHONY : src/unit_test.s
 
 # target to generate assembly for a file
-unit_test.cpp.s:
-	$(MAKE) -f CMakeFiles/mainExecutable.dir/build.make CMakeFiles/mainExecutable.dir/unit_test.cpp.s
-.PHONY : unit_test.cpp.s
+src/unit_test.cpp.s:
+	$(MAKE) -f CMakeFiles/mainExecutable.dir/build.make CMakeFiles/mainExecutable.dir/src/unit_test.cpp.s
+.PHONY : src/unit_test.cpp.s
 
 # Help Target
 help:
@@ -265,9 +265,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... unit_test.o"
-	@echo "... unit_test.i"
-	@echo "... unit_test.s"
+	@echo "... src/unit_test.o"
+	@echo "... src/unit_test.i"
+	@echo "... src/unit_test.s"
 .PHONY : help
 
 
