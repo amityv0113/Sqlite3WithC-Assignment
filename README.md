@@ -39,12 +39,22 @@ uding bash go/to/source code/folder :
 ```
 ## Run code using CMake
 ```
- go inside build folder using cd build 
+ cd build
+ conan install ..
  cmake ..
  make 
- inside build folder there is executable 
+ cd bin
+ inside bin folder there is executable 
  run executable
 ```
+## Package Management
+
+Conan
+```
+  Inside build run conan install ..
+  to install all external dependencies
+```
+
 ## Usage
 ```
  need to update variable DirectoryLocation to/where/you/want to/create Db/sample.db
@@ -69,10 +79,11 @@ Go to the Calculator-test directory
 ```
 Run Test using CMake
 ```
- go inside build folder using cd build 
+ cd build
+ conan install .. 
  cmake ..
- make 
- inside build folder there is executable 
+ cd bin
+ inside bin folder there is executable 
  run executable
 ```
 ## Database schema 
