@@ -26,7 +26,7 @@ Go to the project directory
 Windows
 
 using cmd go/to/source code/folder :
-- g++ main.cpp -lsqlite3
+- g++ src\main.cpp -lsqlite3
 - .\a.exe
 ```
 
@@ -34,7 +34,7 @@ using cmd go/to/source code/folder :
 Linux
 
 uding bash go/to/source code/folder :
-- g++ main.cpp -lsqlite3
+- g++ src/main.cpp -lsqlite3
 - ./a.out
 ```
 ## Run code using CMake
