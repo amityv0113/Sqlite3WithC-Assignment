@@ -1,6 +1,0 @@
-enter in build Directory
-open bash
-step :
-1 ) enter cmake ..
-2 ) make
-3 ) ./mainexecutable

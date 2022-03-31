@@ -1,0 +1,9 @@
+enter in build Directory
+open bash
+step :
+1 ) conan install ..
+    to install all external dependencies
+2 ) enter cmake ..
+3 ) make
+4 ) cd bin
+4 ) ./mainexecutable
