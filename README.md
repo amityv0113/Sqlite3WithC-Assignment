@@ -26,24 +26,24 @@ Go to the project directory
 Windows
 
 using cmd go/to/source code/folder :
-- g++ src\main.cpp -lsqlite3
-- .\a.exe
+ g++ src\main.cpp -lsqlite3
+ .\a.exe
 ```
 
 ```
 Linux
 
 uding bash go/to/source code/folder :
-- g++ src/main.cpp -lsqlite3
-- ./a.out
+ g++ src/main.cpp -lsqlite3
+ ./a.out
 ```
 ## Run code using CMake
 ```
-: go inside build folder using cd build 
-: cmake ..
-: make 
-: inside build folder there is executable 
-: run executable
+ go inside build folder using cd build 
+ cmake ..
+ make 
+ inside build folder there is executable 
+ run executable
 ```
 ## Usage
 ```
@@ -53,19 +53,63 @@ uding bash go/to/source code/folder :
  ask you to enter valid number num1
  ask you to enter valid number num2;
  ask you to enter operation code 
- 1 mean addition 
- 2 mean subtraction 
- 3 mean multiplication
- 4 mean division
+ - 1 mean addition 
+ - 2 mean subtraction 
+ - 3 mean multiplication
+ - 4 mean division
  each time any operation is performed information is save in sqlite DB
  Db store num1,num2,operator,result
 
 ```
+## Run Test
+Go to the Calculator-test directory
+
+```bash
+  cd Calculator-test
+```
+Run Test using CMake
+```
+ go inside build folder using cd build 
+ cmake ..
+ make 
+ inside build folder there is executable 
+ run executable
+```
+## Database schema 
+
+
+| Id    | Num1      | Num2     | operator |   Result    |  
+|:----- |:--------  |:---------|:-------- |:----------- |
+|       |           |          |          |             |
+
+
+## Database example 
+
+
+| Id    | Num1      | Num2     | operator |   Result    |  
+|:----- |:--------  |:---------|:-------- |:----------- |
+|   4   |   25      |  5       |     /    | 5           |
 ## Tech Stack
 
 **language:** C++
 
 **Database:** Sqlite3
+
+## Version
+
+C++
+```bash
+ gcc version 11.2.0
+```
+
+CMake
+```bash
+  version 3.10.2
+```
+SQLite
+```bash
+  version 3.22.0
+```
 
 ## Support
 
