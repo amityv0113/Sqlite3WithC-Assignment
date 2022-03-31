@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#include "../sqlit3Header/sqlite3.h"
+#include <sqlite3.h>
 #include "../CalculatorClass/Calculator.h" // including calculator class 
 using namespace std;
 
