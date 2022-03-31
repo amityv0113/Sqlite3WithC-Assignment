@@ -1,7 +1,12 @@
-#include <bits/stdc++.h>
-// using namespace std;
+#ifndef _BITSTDC_
+#define _BITSTDC_
+#include<bits/stdc++.h>
+#endif
+
 #include "../sqlit3Header/sqlite3.h"
 
+#ifndef DBCONNECTION_H
+#define DBCONNECTION_H
 class DbConnection
 {
 private:
@@ -96,13 +101,14 @@ public:
     // Dbconnection should not assign
     DbConnection &operator=(DbConnection &val) = delete;
 
+    // function to insert data in sqlite3 db
     void InsertData(std::string _num1, std::string _num2, std::string _op, std::string _result)
     {
         sqlite3 *db;
         char *ErrorMessage;
         int open = 0;
         open = sqlite3_open(DirectoryLocation, &db);
-        // sql query for insert value in Calculator DB
+        // sql query to insert value in Calculator db
         std::string sql = "INSERT INTO CALCULATOR (NUM1, NUM2, OPERATOR, RESULT) VALUES(" + _num1 + "," + _num2 + ",'" + _op + "'," + _result + ");";
         open = sqlite3_exec(db, sql.c_str(), NULL, 0, &ErrorMessage);
         if (open != SQLITE_OK)
@@ -117,6 +123,7 @@ public:
         sqlite3_close(db);
     }
 
+    // function to update data base based on input parameter 
     void updateData(int _id, std::string _num1, std::string _num2)
     {
         sqlite3 *db;
@@ -135,6 +142,7 @@ public:
             std::cout << "Records updated Successfully!" << std::endl;
         sqlite3_close(db);
     }
+    // function to update data base based on input parameter
     void updateData( int _id ,std::string _num1, std::string _num2,std::string _result)
     {
         sqlite3 *db;
@@ -174,6 +182,7 @@ public:
         sqlite3_close(db);
     }
 
+    // function to delete data in db
     void DeleteData()
     {
         sqlite3 *db;
@@ -195,3 +204,6 @@ public:
 };
 
 DbConnection *DbConnection::ptr = nullptr;
+
+#endif
+
