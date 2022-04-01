@@ -106,6 +106,8 @@ Run Test using CMake
 
 **Database:** Sqlite3
 
+**package manager** conan
+
 ## Version
 
 C++
