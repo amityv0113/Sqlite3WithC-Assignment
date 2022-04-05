@@ -12,7 +12,7 @@ Clone the project
 Download sqlite3
 
 ```bash
-  sudo apt-get install sqlite3 libsqlite3-dev
+  sudo apt install sqlite3 libsqlite3-dev
 ```
 
 Go to the project directory
@@ -29,11 +29,12 @@ using cmd go/to/source code/folder :
  g++ src\main.cpp -lsqlite3
  .\a.exe
 ```
+TODO: g++ on Windows?
 
 ```
 Linux
 
-uding bash go/to/source code/folder :
+using bash go/to/source code/folder :
  g++ src/main.cpp -lsqlite3
  ./a.out
 ```
@@ -134,3 +135,12 @@ For support, email amityv0113@gmail.com or join our Slack channel.
 - [@amityv0113](https://github.com/amityv0113)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amityv0113/)
 
+## Comments
+* Readme instructions are not well organized. Typically we have a prerequisites, building and running. For devs, there maybe a separate testing section.
+  * Disjointed instructions in build/howToRunCmake.txt
+* Commit messages are still not in "imperative mood"
+* Software design is not test friendly
+* Do we need to template the sum,sub,div,etc.. functions?
+* CMakeLists has compiler and linker flags defined. Ideally we should we should be using the CMake abstractions to enable features without settings the flags manually.
+* Clang format file should inherit a base style and then list the deviations
+* I don't see the clang-tidy integration 

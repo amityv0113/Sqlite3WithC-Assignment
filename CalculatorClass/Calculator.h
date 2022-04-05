@@ -6,7 +6,7 @@
 #include "../CalculatorDbModel/CalculatorModel.h"
 
 #ifndef CALCULATOR_H
-#define CALCULATOR_H
+#define CALCULATOR_H // TODO: header guards must be at the very top
 
 class DividByZeroException : public std::exception{  
     public:  
@@ -22,7 +22,7 @@ class Sum{
         Sum(){};
         T sum(T num1,T num2)
         {
-            T _sum =num1+num2;
+            T _sum =num1+num2; // TODO: not handling overflows, ditto for others
             return _sum;
         }
         // function overloading 
@@ -88,14 +88,16 @@ class Div{
              
         }
 };
+
+// TODO: we don't need inheritance here. you can just call the sub, sum functions
 template<typename T>
 class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // calculator class 
 {
     T num1;
     T num2;
-    const char* DirectoryLocation;
+    const char* DirectoryLocation; // TODO: use std::stringview or std::string here
     // location where we want to create calculator.db file 
-    DbConnection*ptrDb =nullptr;
+    DbConnection*ptrDb =nullptr; // TODO: no raw pointers! use the correct smart pointer
 
     //checks if you want to update database or not check=false ->do not want to update check=true want to update database
     bool check=false;
@@ -107,7 +109,7 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
             this->check=true;
             ptrDb=DbConnection::start(DirectoryLocation);
         }
-        T calculate_operation(int val)
+        T calculate_operation(int val) // TODO: Use enum as input
         {
             T result;
             std::string _num1=std::to_string(num1);
@@ -120,7 +122,7 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
                     result= this->sum(num1,num2);
                     _op="+";
                     _result=std::to_string(result);
-                    if (check==true)
+                    if (check==true) // TODO: if (check)
                     {
                         ptrDb->InsertData(_num1,_num2,_op,_result);
                     }
@@ -175,7 +177,7 @@ class Calculator:public Sum<T>,public Mul<T>,public Sub<T>,public Div<T>  // cal
             }
         }
 
-        void operationToPerform(int&val)
+        void operationToPerform(int&val) // TODO: out params are an anti-pattern
         {
             std::cout<<"enter 1 for addition"<<std::endl;
             std::cout<<"enter 2 for subtraction"<<std::endl;
