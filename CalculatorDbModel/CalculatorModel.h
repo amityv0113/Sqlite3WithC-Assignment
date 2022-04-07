@@ -2,8 +2,8 @@
 #define _BITSTDC_
 #include<bits/stdc++.h>
 #endif
-
-#include "../sqlit3Header/sqlite3.h"
+#include <sqlite3.h>
+// #include "../sqlit3Header/sqlite3.h"
 
 #ifndef DBCONNECTION_H
 #define DBCONNECTION_H
@@ -17,11 +17,12 @@ private:
     static DbConnection *ptr;
 
     // constructor for DbConnection
-    DbConnection(const char *_DirectoryLocation) : DirectoryLocation{_DirectoryLocation}
+    DbConnection(const char* _DirectoryLocation)
     {
         std::cout << "creating constructor, for DbConnection" << std::endl;
         this->CreateDb();    // when object is created ,data base is created with help of CreateDb function on location DirectoryLocation
         this->CreateTable(); // when object is created ,table is created with help of CreateTable  function on location DirectoryLocation
+        this->DirectoryLocation=_DirectoryLocation;
     }
     // function to create DB
     void CreateDb()
