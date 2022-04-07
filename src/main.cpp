@@ -78,8 +78,8 @@ int main(int argc, char * argv[])
   double _num1 = std::stod(num1);
   double _num2 = std::stod(num2);
   // const char *DirectoryLocation = R"(/mnt/d/Go_Basic/projects/go/src/C++ Project/sqliteWithC++/CalculatorDatabase/calculator.db)";
-  const char *DirectoryLocation = location.c_str();
-  Calculator<double> c(_num1, _num2, DirectoryLocation);
+  // const char *DirectoryLocation = location;
+  Calculator<double> c(_num1, _num2,location);
   c.Run();// to run calculator //
 
   cout << "show all operation perform on calculator" << endl;
